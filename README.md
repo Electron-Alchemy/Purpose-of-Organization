@@ -17,9 +17,11 @@ electron + sqlite3를 베이스로 두고 그 위에 react를 얹어서 어플 �
 즉, react app + electron + SQLite3의 연동을 하려는 것이다.
 
 # 현재 상황
+₩₩₩
 react app + electron === 'SUCCESS'  
 react app + SQLite3 === 'SUCCESS'  
 electron + SQLite3 === 'SUCCESS'  
 react app + electron + SQLite3 === 'FAILTURE'  
+₩₩₩
 아주 그냥 미치고 환장할 노릇이다.  
 반드시 이 연동을 성공해내기를 바란다.  
