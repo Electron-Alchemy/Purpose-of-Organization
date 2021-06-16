@@ -23,4 +23,4 @@ electron + SQLite3 === 'SUCCESS'
 react app + electron + SQLite3 === 'FAILTURE'  
   
 아주 그냥 미치고 환장할 노릇이다.  
-반드시 이 연동을 성공해내기를 바란다.  
+하지만 언젠가는 반드시 이 연동을 성공해내기를 바란다.  
