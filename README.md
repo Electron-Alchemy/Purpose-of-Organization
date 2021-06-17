@@ -16,7 +16,9 @@
 electron + sqlite3를 베이스로 두고 그 위에 react를 얹어서 어플 개발을 용이하게 하려고 한다.  
 즉, react app + electron + SQLite3의 연동을 하려는 것이다.
 
-# 현재 상황 [2021/06/16]
+# 진행 상황 
+
+## [2021/06/16]
 react app + electron === 'SUCCESS'  
 react app + SQLite3 === 'SUCCESS'  
 electron + SQLite3 === 'SUCCESS'  
@@ -24,3 +26,11 @@ react app + electron + SQLite3 === 'FAILTURE'
   
 아주 그냥 미치고 환장할 노릇이다.  
 하지만 언젠가는 반드시 이 연동을 성공해내기를 바란다.  
+
+## [2021/06/17]
+Vue.js + electron + SQLite3를 연동시키려는 노력은 무산되었다.  
+그러나 Sequelize를 사용하는 것이 하나의 해법이라는 것은 알게 되었다.  
+  
+나의 현기술로는 이 계획을 성공시키는데에 한계가 있다.  
+그리하여 일단은 React와 그 밖의 라이브러리들을 유연하게 사용하는데 집중하겠다.  
+당장의 문제를 해결할 수는 없겠으나, 이 같은 내공이 문제 해결에 간접적인 도움이 될 것이다.  
