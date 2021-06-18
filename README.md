@@ -39,4 +39,5 @@ Vue.js + electron + SQLite3를 연동시키려는 노력은 무산되었다.
 일단 React + Electron을 연동하는데에는 성공했다.  
 돌고 돌아서 결국 여기까지 오게 된 것이다.   
 당장에 사용할 프로그램의 data는 사실 const한 data이므로, sqlite3를 굳이 연동할 필요는 없을 듯하다.  
-많은 js파일에 대해서 import, export를 해야해서 귀찮아질 수는 있겠으나, 그 방법이 오히려 깔끔할 것이다.
+많은 js파일에 대해서 import, export를 해야해서 귀찮아질 수는 있겠으나, 그 방법이 오히려 깔끔할 것이다.  
+성공 repo : https://github.com/Electron-Alchemy/electron-with-react
