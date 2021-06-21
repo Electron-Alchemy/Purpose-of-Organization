@@ -41,3 +41,11 @@ Vue.js + electron + SQLite3를 연동시키려는 노력은 무산되었다.
 당장에 사용할 프로그램의 data는 사실 const한 data이므로, sqlite3를 굳이 연동할 필요는 없을 듯하다.  
 많은 js파일에 대해서 import, export를 해야해서 귀찮아질 수는 있겠으나, 그 방법이 오히려 깔끔할 것이다.  
 성공 repo : https://github.com/Electron-Alchemy/electron-with-react
+
+## [2021/06/21] 
+React + Electron을 연동한 것을 베이스로 localStorage연동까지 성공하였다.  
+지금 생각하고 있는 대량의 data는 Only Read만 요구함으로, export, import로 처리하고  
+사용자가 쓰는 데이터는 localStorage로 처리하자.  
+다만, localStorage는 5MB로 그 크기가 제한 된다.  
+이 제한을 해제하는 방법을 알아야 하겠지만, 현실적으로 이 용량 이상을 사용할 경우가 얼마나 있을까?  
+사실상 electron기반 stand alone APP에 대한 연구는 이로써 완료되었다고 볼 수 있다.  
